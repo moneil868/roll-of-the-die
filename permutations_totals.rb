@@ -3,6 +3,5 @@ number_of_dice = 2
 
 
 sides_of_the_dice.repeated_permutation(number_of_dice) do |perm|
-  puts "Dice Roll: #{perm.join(' ')}"
-
+  puts "Dice Roll: #{perm.join(' ')} Total: #{perm.sum}"
 end
